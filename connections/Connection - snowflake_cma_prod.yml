@@ -1,0 +1,7 @@
+unique_name: Connection - snowflake_cma_prod
+object_type: connection
+label: Connection - snowflake_cma_prod
+as_connection: snowflake
+database: PHC__AP__CMA__PROD
+schema: PROVISION
+

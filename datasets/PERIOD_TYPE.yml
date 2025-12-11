@@ -1,0 +1,17 @@
+unique_name: PERIOD_TYPE
+object_type: dataset
+label: PERIOD_TYPE
+connection_id: Connection - snowflake_cma_prod
+table: PERIOD_TYPE
+
+columns:
+  - name: PERIOD_TYPE_PK
+    data_type: varchar(256)
+    primary_key: true
+    unique_name: PK__PERIOD_TYPE_PK  
+  - name: PERIOD_TYPE_DESC
+    data_type: varchar(256)
+  - name: AVG_TYPE
+    data_type: int
+  - name: MONTH_MINUS
+    data_type: int

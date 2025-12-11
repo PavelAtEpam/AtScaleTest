@@ -1,0 +1,6 @@
+unique_name: dim_PERIOD_TYPE
+object_type: dimension
+label: dim_PERIOD_TYPE
+hierarchies: []
+level_attributes: []
+type: standard

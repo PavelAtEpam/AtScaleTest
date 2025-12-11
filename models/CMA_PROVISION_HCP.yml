@@ -1,0 +1,22 @@
+unique_name: CMA_PROVISION_HCP
+object_type: model
+label: CMA_PROVISION_HCP
+
+dimensions:
+  - PERIOD_TYPE
+
+metrics:
+ - unique_name: PERIOD_TYPE
+
+relationships:
+
+  - unique_name: prescription_period_type
+    from:
+      dataset: prescription_hcp
+      join_columns:
+        - prescription_period_type
+    to:
+      dimension: dim_PERIOD_TYPE
+      level: PERIOD_TYPE
+    role_play: "Order {0}"
+
