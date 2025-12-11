@@ -1,0 +1,22 @@
+unique_name: period_type
+object_type: dimension
+label: period_type
+is_degenerate: true
+
+hierarchies:
+  - unique_name: dim_period_type_hierarchy
+    label: dim_period_type_hierarchy
+    levels:
+      - unique_name: period_type
+
+level_attributes:
+  - unique_name: period_type
+    label: period_type
+    contains_unique_names: false
+    dataset: dim_period_type
+    is_unique_key: false
+    key_columns:
+      - period_type_pk
+    name_column: period_type_description
+
+type: standard

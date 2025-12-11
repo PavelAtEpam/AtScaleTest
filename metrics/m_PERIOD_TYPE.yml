@@ -1,7 +1,0 @@
-unique_name: m_PERIOD_TYPE
-object_type: metric
-label: Period Type
-calculation_method: count non-null
-column: PERIOD_TYPE_DESC
-dataset: PERIOD_TYPE
-format: standard

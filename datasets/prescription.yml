@@ -1,0 +1,30 @@
+unique_name: prescription
+object_type: dataset
+label: prescription
+connection_id: Connection - snowflake_cma_prod
+table: CMA_PRESCRIPTION_HCP
+
+
+columns:
+  - name: cma_prescription_pk
+    data_type: string
+    primary_key: true
+
+  - name: customer_fk
+    data_type: string
+
+  - name: period_type_fk
+    data_type: string
+
+  - name: prescription_period
+    data_type: date
+
+  - name: product_fk
+    data_type: string
+  
+  - name: rx_type
+    data_type: string
+
+  - name: prescription_volume
+    data_type: long
+

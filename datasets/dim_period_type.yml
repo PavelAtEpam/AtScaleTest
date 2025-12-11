@@ -1,0 +1,20 @@
+unique_name: dim_period_type
+object_type: dataset
+label: period_type
+connection_id: Connection - snowflake_cma_prod
+table: PERIOD_TYPE
+
+columns:
+
+  - name: period_type_pk
+    data_type: string
+    primary_key: true
+
+  - name: period_type_description
+    data_type: string
+    
+  - name: granuality_type
+    data_type: int
+
+  - name: month_minus
+    data_type: int
