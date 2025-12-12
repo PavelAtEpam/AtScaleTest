@@ -1,0 +1,22 @@
+unique_name: prescription_period
+object_type: dimension
+label: prescription_period
+is_degenerative: true
+
+hierarchies:
+  - unique_name: prescription_period Hierarchy
+    label: prescription_period Hierarchy
+    folder: cma
+    levels:
+      - unique_name: prescription_period Level
+level_attributes:
+  - unique_name: prescription_period Level
+    label: prescription_period Level
+    contains_unique_names: false
+    dataset: prescription
+    is_unique_key: false
+    key_columns:
+      - prescription_period
+    name_column: prescription_period
+    time_unit: month
+type: time

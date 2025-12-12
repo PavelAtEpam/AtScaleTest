@@ -1,0 +1,11 @@
+unique_name: m_prescription_volume
+object_type: metric
+label: Prescription Volume
+description: >-
+  average volume of the prescription in a group of 30 customers ordered by
+  prescription volume
+calculation_method: sum
+column: prescription_volume
+dataset: prescription
+format: general number
+unrelated_dimensions_handling: repeat

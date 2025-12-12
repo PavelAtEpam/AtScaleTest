@@ -1,22 +1,14 @@
 unique_name: CMA_PROVISION_HCP
 object_type: model
 label: CMA_PROVISION_HCP
-dimensions: []
-metric:
-  - prescription_volume
-metrics: []
-relationships:
-  - unique_name: ''
-    from:
-      dataset: ''
-      join_columns: []
-    to:
-      dimension: period_type
-      level: ''
-  - unique_name: dim_period_type_empty_dimension
-    from:
-      dataset: dim_period_type
-      join_columns: []
-    to:
-      dimension: ''
-      level: ''
+
+dimensions:
+   
+  - prescription_period
+
+relationships: []
+
+metrics:
+
+  - unique_name: m_prescription_volume
+    folder: Predcription Metrics
