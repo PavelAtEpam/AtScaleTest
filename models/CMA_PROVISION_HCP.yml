@@ -1,13 +1,11 @@
 unique_name: CMA_PROVISION_HCP
 object_type: model
 label: CMA_PROVISION_HCP
-
 dimensions:
    
   - prescription_period
 
 relationships: 
-
   - unique_name: prescription_has_period_type
     from:
       dataset: prescription
@@ -15,12 +13,11 @@ relationships:
         - period_type_fk
     to:
       dimension: period_type
-      hierarchy: dim_period_type_hierarchy
       level: period_type
-
-    role_play: "Order {0}"
-
+    role_play: "Period Type {0}"
+    
 metrics:
-
   - unique_name: m_prescription_volume
     folder: Predcription Metrics
+    
+visible: true

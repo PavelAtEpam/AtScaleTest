@@ -8,9 +8,9 @@ hierarchies:
     label: prescription_period Hierarchy
     folder: cma
     levels:
-      - unique_name: prescription_period Level
+      - unique_name: prescription_period
 level_attributes:
-  - unique_name: prescription_period Level
+  - unique_name: prescription_period
     label: prescription_period Level
     contains_unique_names: false
     dataset: prescription

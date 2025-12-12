@@ -1,6 +1,7 @@
 unique_name: period_type
 object_type: dimension
 label: period_type
+type: standard
 is_degenerate: false
 
 hierarchies:
@@ -19,4 +20,4 @@ level_attributes:
       - period_type_pk
     name_column: period_type_description
 
-type: standard
+visible: true
