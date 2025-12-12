@@ -1,7 +1,7 @@
 unique_name: prescription_period
 object_type: dimension
 label: prescription_period
-is_degenerative: true
+is_degenerate: true
 
 hierarchies:
   - unique_name: prescription_period Hierarchy

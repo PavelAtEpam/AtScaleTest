@@ -1,7 +1,7 @@
 unique_name: period_type
 object_type: dimension
 label: period_type
-is_degenerate: true
+is_degenerate: false
 
 hierarchies:
   - unique_name: dim_period_type_hierarchy

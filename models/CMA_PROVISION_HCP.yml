@@ -6,7 +6,19 @@ dimensions:
    
   - prescription_period
 
-relationships: []
+relationships: 
+
+  - unique_name: prescription_has_period_type
+    from:
+      dataset: prescription
+      join_columns:
+        - period_type_fk
+    to:
+      dimension: period_type
+      hierarchy: dim_period_type_hierarchy
+      level: period_type
+
+    role_play: "Order {0}"
 
 metrics:
 
